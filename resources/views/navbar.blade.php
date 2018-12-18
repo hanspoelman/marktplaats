@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Inloggen</title>
-
+        <title></title>
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
         <style>
@@ -36,30 +35,25 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">inloggen</div>
-                     <header>
+        <nav class="navbar"> 
+            <div class="container-fluid">
+            <li>navbar</li>
+            <ul>home</ul>
+            <ul></ul>    
             
-            </header>
-            <table>
             
-            <form action="inlogscript.php" method="post">
-            <td>
-            <labl for="username">Gebruikersnaam</labl><br>    
-            <input type="text" id="username" name="username"></td><br>
-            <td>
-            <label for="password">Wachtwoord</label><br>
-            <input type="password" id="password" name="password"></td><br>
             
-            <input type="submit" value="inloggen">
-                        
-            </form>    
-            </table>      
-            <footer>
             
-            </footer>
             </div>
-        </div>
+        
+        
+        
+        
+        </nav>
+                
+            
+    
     </body>
 </html>
+
+

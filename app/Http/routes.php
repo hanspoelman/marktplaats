@@ -26,7 +26,5 @@ Route::get('/advertentieplaatsen', function () {
 Route::get('/profielpagina', function () {
     return view('profielpagina');
 });
-
 Route::auth();
-
 Route::get('/home', 'HomeController@index');
